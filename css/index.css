@@ -1,15 +1,36 @@
-main{
+* {
     font: 1.2rem "Fira Sans", sans-serif;
-    display:flex;
-    flex-direction: row;
-    align-items: flex-start;
-    border: dotted black;
-    justify-content: flex-start;
-    flex-basis :content;
-}
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    }
+    
 body{
-    border : solid blueviolet 1px;
-}
-.div{
-    border: salmon 1px ;
-}
+    display:flex;
+    border:  solid 1px black;
+    max-width: 1000px;
+    margin:0 auto;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    padding: 0 auto;
+    border : solid rgb(43, 226, 89) 1px;
+    }
+    
+    .board-row row-0{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    width : 100vw;
+    height: 100vh;
+    background-color: rgb(238, 243, 247);
+    border:solid salmon 1px ;
+    }
+
+.board-column{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: flex;
+    width: 10vw;
+    height:10vh;
+    border :solid rgb(226, 242, 2) 1px;
+    }
