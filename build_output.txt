@@ -1,0 +1,211 @@
+
+> NodeApp@0.1.0 build /Users/ky/Documents/NodeApp
+> webpack --mode production
+
+(node:91273) UnhandledPromiseRejectionWarning: Error [ERR_UNSUPPORTED_ESM_URL_SCHEME]: Only file and data URLs are supported by the default ESM loader
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:781:11)
+    at Loader.resolve (internal/modules/esm/loader.js:85:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:229:28)
+    at ModuleWrap.<anonymous> (internal/modules/esm/module_job.js:51:40)
+    at link (internal/modules/esm/module_job.js:50:36)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:91273) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 4)
+(node:91273) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+assets by status 145 KiB [cached] 2 assets
+orphan modules 148 bytes [orphan] 1 module
+modules by path ./src/node_modules/ 141 KiB
+  modules by path ./src/node_modules/react/ 6.95 KiB
+    ./src/node_modules/react/index.js 190 bytes [built] [code generated]
+    ./src/node_modules/react/cjs/react.production.min.js 6.77 KiB [built] [code generated]
+  modules by path ./src/node_modules/react-dom/ 130 KiB
+    ./src/node_modules/react-dom/index.js 1.33 KiB [built] [code generated]
+    ./src/node_modules/react-dom/cjs/react-dom.production.min.js 129 KiB [built] [code generated]
+  modules by path ./src/node_modules/scheduler/ 4.33 KiB
+    ./src/node_modules/scheduler/index.js 198 bytes [built] [code generated]
+    ./src/node_modules/scheduler/cjs/scheduler.production.min.js 4.14 KiB [built] [code generated]
+./src/index.js + 1 modules 1 KiB [built] [code generated]
+
+ERROR in Error: Child compilation failed:
+  Module not found: Error: Can't resolve './css/index.css' in '/Users/ky/Documen  ts/NodeApp/src'
+  ModuleNotFoundError: Module not found: Error: Can't resolve './css/index.css'   in '/Users/ky/Documents/NodeApp/src'
+      at /Users/ky/Documents/NodeApp/node_modules/webpack/lib/Compilation.js:210  0:28
+      at /Users/ky/Documents/NodeApp/node_modules/webpack/lib/NormalModuleFactor  y.js:904:13
+      at eval (eval at create (/Users/ky/Documents/NodeApp/node_modules/tapable/  lib/HookCodeFactory.js:33:10), <anonymous>:10:1)
+      at /Users/ky/Documents/NodeApp/node_modules/webpack/lib/NormalModuleFactor  y.js:341:22
+      at eval (eval at create (/Users/ky/Documents/NodeApp/node_modules/tapable/  lib/HookCodeFactory.js:33:10), <anonymous>:9:1)
+      at /Users/ky/Documents/NodeApp/node_modules/webpack/lib/NormalModuleFactor  y.js:518:22
+      at /Users/ky/Documents/NodeApp/node_modules/webpack/lib/NormalModuleFactor  y.js:151:11
+      at /Users/ky/Documents/NodeApp/node_modules/webpack/lib/NormalModuleFactor  y.js:776:25
+      at /Users/ky/Documents/NodeApp/node_modules/webpack/lib/NormalModuleFactor  y.js:988:8
+      at /Users/ky/Documents/NodeApp/node_modules/webpack/lib/NormalModuleFactor  y.js:1118:5
+      at /Users/ky/Documents/NodeApp/node_modules/neo-async/async.js:6883:13
+      at Array.<anonymous> (/Users/ky/Documents/NodeApp/node_modules/webpack/lib  /NormalModuleFactory.js:1093:14)
+      at arrayEachFunc (/Users/ky/Documents/NodeApp/node_modules/neo-async/async  .js:2517:19)
+      at Object.parallel (/Users/ky/Documents/NodeApp/node_modules/neo-async/asy  nc.js:6858:9)
+      at NormalModuleFactory._resolveResourceErrorHints (/Users/ky/Documents/Nod  eApp/node_modules/webpack/lib/NormalModuleFactory.js:1016:12)
+      at /Users/ky/Documents/NodeApp/node_modules/webpack/lib/NormalModuleFactor  y.js:948:18
+      at finishWithoutResolve (/Users/ky/Documents/NodeApp/node_modules/enhanced  -resolve/lib/Resolver.js:567:11)
+      at /Users/ky/Documents/NodeApp/node_modules/enhanced-resolve/lib/Resolver.  js:656:15
+      at /Users/ky/Documents/NodeApp/node_modules/enhanced-resolve/lib/Resolver.  js:718:5
+      at eval (eval at create (/Users/ky/Documents/NodeApp/node_modules/tapable/  lib/HookCodeFactory.js:33:10), <anonymous>:15:1)
+      at /Users/ky/Documents/NodeApp/node_modules/enhanced-resolve/lib/Resolver.  js:718:5
+      at eval (eval at create (/Users/ky/Documents/NodeApp/node_modules/tapable/  lib/HookCodeFactory.js:33:10), <anonymous>:27:1)
+      at /Users/ky/Documents/NodeApp/node_modules/enhanced-resolve/lib/Descripti  onFilePlugin.js:89:43
+      at /Users/ky/Documents/NodeApp/node_modules/enhanced-resolve/lib/Resolver.  js:718:5
+      at eval (eval at create (/Users/ky/Documents/NodeApp/node_modules/tapable/  lib/HookCodeFactory.js:33:10), <anonymous>:15:1)
+      at /Users/ky/Documents/NodeApp/node_modules/enhanced-resolve/lib/Resolver.  js:718:5
+      at eval (eval at create (/Users/ky/Documents/NodeApp/node_modules/tapable/  lib/HookCodeFactory.js:33:10), <anonymous>:15:1)
+      at /Users/ky/Documents/NodeApp/node_modules/enhanced-resolve/lib/Resolver.  js:718:5
+      at eval (eval at create (/Users/ky/Documents/NodeApp/node_modules/tapable/  lib/HookCodeFactory.js:33:10), <anonymous>:16:1)
+      at /Users/ky/Documents/NodeApp/node_modules/enhanced-resolve/lib/RootsPlug  in.js:38:38
+      at _next2 (eval at create (/Users/ky/Documents/NodeApp/node_modules/tapabl  e/lib/HookCodeFactory.js:33:10), <anonymous>:8:1)
+      at eval (eval at create (/Users/ky/Documents/NodeApp/node_modules/tapable/  lib/HookCodeFactory.js:33:10), <anonymous>:31:1)
+      at /Users/ky/Documents/NodeApp/node_modules/enhanced-resolve/lib/Condition  alPlugin.js:40:47
+      at _next1 (eval at create (/Users/ky/Documents/NodeApp/node_modules/tapabl  e/lib/HookCodeFactory.js:33:10), <anonymous>:23:1)
+      at eval (eval at create (/Users/ky/Documents/NodeApp/node_modules/tapable/  lib/HookCodeFactory.js:33:10), <anonymous>:46:1)
+      at /Users/ky/Documents/NodeApp/node_modules/enhanced-resolve/lib/Condition  alPlugin.js:40:47
+      at _next0 (eval at create (/Users/ky/Documents/NodeApp/node_modules/tapabl  e/lib/HookCodeFactory.js:33:10), <anonymous>:38:1)
+      at eval (eval at create (/Users/ky/Documents/NodeApp/node_modules/tapable/  lib/HookCodeFactory.js:33:10), <anonymous>:60:1)
+      at /Users/ky/Documents/NodeApp/node_modules/enhanced-resolve/lib/Resolver.  js:718:5
+      at eval (eval at create (/Users/ky/Documents/NodeApp/node_modules/tapable/  lib/HookCodeFactory.js:33:10), <anonymous>:27:1)
+      at /Users/ky/Documents/NodeApp/node_modules/enhanced-resolve/lib/Descripti  onFilePlugin.js:89:43
+      at /Users/ky/Documents/NodeApp/node_modules/enhanced-resolve/lib/Resolver.  js:718:5
+      at eval (eval at create (/Users/ky/Documents/NodeApp/node_modules/tapable/  lib/HookCodeFactory.js:33:10), <anonymous>:16:1)
+      at /Users/ky/Documents/NodeApp/node_modules/enhanced-resolve/lib/Resolver.  js:718:5
+      at eval (eval at create (/Users/ky/Documents/NodeApp/node_modules/tapable/  lib/HookCodeFactory.js:33:10), <anonymous>:15:1)
+      at /Users/ky/Documents/NodeApp/node_modules/enhanced-resolve/lib/Directory  ExistsPlugin.js:41:15
+      at processTicksAndRejections (internal/process/task_queues.js:79:21)
+  
+  - Compilation.js:2100 
+    [NodeApp]/[webpack]/lib/Compilation.js:2100:28
+  
+  - NormalModuleFactory.js:904 
+    [NodeApp]/[webpack]/lib/NormalModuleFactory.js:904:13
+  
+  
+  - NormalModuleFactory.js:341 
+    [NodeApp]/[webpack]/lib/NormalModuleFactory.js:341:22
+  
+  
+  - NormalModuleFactory.js:518 
+    [NodeApp]/[webpack]/lib/NormalModuleFactory.js:518:22
+  
+  - NormalModuleFactory.js:151 
+    [NodeApp]/[webpack]/lib/NormalModuleFactory.js:151:11
+  
+  - NormalModuleFactory.js:776 
+    [NodeApp]/[webpack]/lib/NormalModuleFactory.js:776:25
+  
+  - NormalModuleFactory.js:988 
+    [NodeApp]/[webpack]/lib/NormalModuleFactory.js:988:8
+  
+  - NormalModuleFactory.js:1118 
+    [NodeApp]/[webpack]/lib/NormalModuleFactory.js:1118:5
+  
+  - async.js:6883 
+    [NodeApp]/[neo-async]/async.js:6883:13
+  
+  - NormalModuleFactory.js:1093 Array.<anonymous>
+    [NodeApp]/[webpack]/lib/NormalModuleFactory.js:1093:14
+  
+  - async.js:2517 arrayEachFunc
+    [NodeApp]/[neo-async]/async.js:2517:19
+  
+  - async.js:6858 Object.parallel
+    [NodeApp]/[neo-async]/async.js:6858:9
+  
+  - NormalModuleFactory.js:1016 NormalModuleFactory._resolveResourceErrorHints
+    [NodeApp]/[webpack]/lib/NormalModuleFactory.js:1016:12
+  
+  - NormalModuleFactory.js:948 
+    [NodeApp]/[webpack]/lib/NormalModuleFactory.js:948:18
+  
+  - Resolver.js:567 finishWithoutResolve
+    [NodeApp]/[enhanced-resolve]/lib/Resolver.js:567:11
+  
+  - Resolver.js:656 
+    [NodeApp]/[enhanced-resolve]/lib/Resolver.js:656:15
+  
+  - Resolver.js:718 
+    [NodeApp]/[enhanced-resolve]/lib/Resolver.js:718:5
+  
+  
+  - Resolver.js:718 
+    [NodeApp]/[enhanced-resolve]/lib/Resolver.js:718:5
+  
+  
+  - DescriptionFilePlugin.js:89 
+    [NodeApp]/[enhanced-resolve]/lib/DescriptionFilePlugin.js:89:43
+  
+  - Resolver.js:718 
+    [NodeApp]/[enhanced-resolve]/lib/Resolver.js:718:5
+  
+  
+  - Resolver.js:718 
+    [NodeApp]/[enhanced-resolve]/lib/Resolver.js:718:5
+  
+  
+  - Resolver.js:718 
+    [NodeApp]/[enhanced-resolve]/lib/Resolver.js:718:5
+  
+  
+  - RootsPlugin.js:38 
+    [NodeApp]/[enhanced-resolve]/lib/RootsPlugin.js:38:38
+  
+  
+  
+  - ConditionalPlugin.js:40 
+    [NodeApp]/[enhanced-resolve]/lib/ConditionalPlugin.js:40:47
+  
+  
+  
+  - ConditionalPlugin.js:40 
+    [NodeApp]/[enhanced-resolve]/lib/ConditionalPlugin.js:40:47
+  
+  
+  
+  - Resolver.js:718 
+    [NodeApp]/[enhanced-resolve]/lib/Resolver.js:718:5
+  
+  
+  - DescriptionFilePlugin.js:89 
+    [NodeApp]/[enhanced-resolve]/lib/DescriptionFilePlugin.js:89:43
+  
+  - Resolver.js:718 
+    [NodeApp]/[enhanced-resolve]/lib/Resolver.js:718:5
+  
+  
+  - Resolver.js:718 
+    [NodeApp]/[enhanced-resolve]/lib/Resolver.js:718:5
+  
+  
+  - DirectoryExistsPlugin.js:41 
+    [NodeApp]/[enhanced-resolve]/lib/DirectoryExistsPlugin.js:41:15
+  
+  - task_queues.js:79 processTicksAndRejections
+    internal/process/task_queues.js:79:21
+  
+  - child-compiler.js:174 
+    [NodeApp]/[html-webpack-plugin]/lib/child-compiler.js:174:18
+  
+  - Compiler.js:625 finalCallback
+    [NodeApp]/[webpack]/lib/Compiler.js:625:5
+  
+  - Compiler.js:660 
+    [NodeApp]/[webpack]/lib/Compiler.js:660:11
+  
+  - Compiler.js:1349 
+    [NodeApp]/[webpack]/lib/Compiler.js:1349:17
+
+1 ERROR in child compilations (Use 'stats.children: true' resp. '--stats-children' for more details)
+webpack 5.93.0 compiled with 2 errors in 3304 ms
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! NodeApp@0.1.0 build: `webpack --mode production`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the NodeApp@0.1.0 build script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/ky/.npm/_logs/2024-08-16T05_53_52_224Z-debug.log
